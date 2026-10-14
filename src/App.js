@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 const API_BASE = "https://stylecumpx-backend.onrender.com/api";
-
 function App() {
   const [user, setUser] = useState(null);
   const [isRegister, setIsRegister] = useState(false);
